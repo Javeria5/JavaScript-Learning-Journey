@@ -1,0 +1,7 @@
+blind transfer jesy kisi esi jaga transfer krdi jahn ek waqt mae ek call hoti is mae IVR ki port free
+Consultative transfer  is mae IVR ki port free nh ho
+
+jahn IVR ko call py laty wahn end ame agent ko tarsnfer nh krty exit krty
+
+interaction data = IVR or agent commuincate krty 
+jahn py bhi agent ko transfer krna sub flow mae daal do 
