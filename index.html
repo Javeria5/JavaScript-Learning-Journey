@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crud operations </title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+    
+
+<body style="background-color: rgb(240, 240, 247);">
+    <table>
+        <tr>
+            <td>
+                <!--HTML form for crud operation-->
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="ToDoList">Jav's Todo List</label>
+                        <input type="text" name="ToDoList" id="ToDoList" >
+                    </div>
+
+                    
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="TodoList">
+                    <thead>
+                        <tr>
+                            <th>Jav's Todo List</th>
+                
+                            <th>Edit Or Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
